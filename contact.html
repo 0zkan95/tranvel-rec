@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./assets/airplane.png" alt="airplane logo" width="50" height="50">
+            <h1>TravelBloom</h1>
+        </div>
+
+        <div class="nav-items">
+            <a href="travel.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="search">
+            <div class="search-input-con">
+                <input id="search-input" type="text" placeholder="Enter a destination">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
+            <button id="search-btn">Search</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+    </nav>
+
+    <section id="contact">
+        <div class="overlay"></div>
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <h1>CONTACT US</h1>
+                <p>If you have any questions, suggestions, or feedback, feel free to reach out to us!</p>
+
+            </div>
+
+            <div class="contact-form">
+                <form action="#" method="post">
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your message here..."
+                        required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" aria-label="YouTube">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+    <script src="./nav-search.js"></script>
+</body>
+
+</html>
